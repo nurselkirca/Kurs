@@ -26,7 +26,7 @@ func multiply(firstNumber: Int, secondNumber: Int) {
 }
 func introduceYourself(firstName: String, lastName: String, height: Double) {
     let fullName = firstName + " " +  lastName
-    let text = "Hello, I am " + fullName + "and my height is" + String(height)
+    let text = "Hello, I am " + fullName + " and my height is" + String(height)
     
     print(text)
 }
@@ -48,7 +48,7 @@ func sayHello (to firstName: String) {
 }
 
 func sayHello(to person: String, and anotherPerson: String) {
-    let text = "Hello, " + " and " + anotherPerson
+    let text = "Hello, " + person + " and " + anotherPerson
     print(text)
 }
 
